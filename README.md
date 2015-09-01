@@ -4,7 +4,7 @@ Simple Java application for converting Excel spreadsheet into a Drools DRL file
 
 ## Requirements
 
-* Java 1.8
+* Java 1.7
 * Gradle 2.6
 
 ## Build/Setup
@@ -13,9 +13,13 @@ Simple Java application for converting Excel spreadsheet into a Drools DRL file
 
 2) Clone this repository
 
-3) gradle distZip
+3) In a terminal/command prompt switch to the "xsl2drl" and run the following Gradle command:
 
-This will create a "xls2drl-1.0-SNAPSHOT.zip" file in the build/distributions/ subdirectory. Copy the zip file to a convenient location. and unzip the file. This will create a "xls2drl-1.0-SNAPSHOT" directory. Switch to the xls2drl-1.0-SNAPSHOT/bin/ directory and run the "xls2drl" script (on Linux/Mac OSX) or the "xls2drl.bat" script (on Windows).
+```
+gradle distZip
+```
+
+This will create a "xls2drl-1.0-SNAPSHOT.zip" file in the build/distributions/ subdirectory. Copy the zip file to a convenient location. and unzip the file. This will create a "xls2drl-1.0-SNAPSHOT" directory. Switch to the xls2drl-1.0-SNAPSHOT/bin/ subdirectory and run the "xls2drl" script (on Linux/Mac OSX) or the "xls2drl.bat" script (on Windows).
 
 ## Usage
 
