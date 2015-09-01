@@ -1,6 +1,6 @@
-# xls2drl
+# ole-drools-xls2drl
 
-Simple Java application for converting Excel spreadsheet into a Drools DRL file
+Simple Java application for converting an Excel spreadsheet into a Drools DRL file. While this application can convert any properly formatted Excel spreadsheet into a Drools DRL file, it is primarily intended for generating Drools rules files for the Kuali OLE (Open Library Environment) application.
 
 ## Requirements
 
@@ -13,7 +13,7 @@ Simple Java application for converting Excel spreadsheet into a Drools DRL file
 
 2) Clone this repository
 
-3) In a terminal/command prompt switch to the "xls2drl" directory and run the following Gradle command:
+3) In a terminal/command prompt switch to the "ole-drools-xls2drl" directory and run the following Gradle command:
 
 ```
 gradle distZip
